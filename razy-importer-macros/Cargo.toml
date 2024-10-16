@@ -18,7 +18,7 @@ winapi = "0.3.9"
 
 [dependencies]
 proc-macro2   = "1.0.36"
-const-random  = "0.1.15"
+const-random  = { git = "https://github.com/tkaitchuck/constrandom" }
 syn           = { version = "1.0.91", features = ["full", "extra-traits"] }
 quote         = "1.0.17"
 razy-importer = { version = "0.3.4", path = "../razy-importer" }
