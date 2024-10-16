@@ -16,3 +16,7 @@ codegen-units = 1
 lto           = true
 incremental   = false
 opt-level     = "s"
+
+[patch.crates-io]
+const-random = { git = "https://github.com/tkaitchuck/constrandom" }
+
